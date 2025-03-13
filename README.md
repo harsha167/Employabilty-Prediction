@@ -23,6 +23,7 @@ pip install -r requirements.txt
 2. Run the Gradio interface:
 ```bash
 python app.py
+```
 
 ## How It Works
 1. **Input Data**: Users provide ratings from 1 to 5 on five attributes: Manner of Speaking, Self-Confidence, Ability to Present Ideas, Communication Skills, and Mental Alertness.

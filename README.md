@@ -1,22 +1,50 @@
-# Employability Prediction  
+Employability Prediction with Gradio
 
-This project uses a **Machine Learning model** to predict whether an individual is **Employable** or **Less Employable** based on their skills and attributes. It provides an easy-to-use **Gradio interface** for quick assessments.
+Overview
 
-## Features  
-- Accepts ratings (1-5) for multiple employability factors.  
-- Uses a **Logistic Regression model** for better accuracy.  
-- Provides a **user-friendly Gradio interface**.  
-- Easily **deployable on Hugging Face Spaces**.  
+A simple web application that predicts employability using machine learning and Gradio.
 
-## How It Works  
-1. Enter ratings **(1-5)** for various attributes such as communication skills, confidence, and mental alertness.  
-2. Click **"Submit"** to get your employability prediction.  
-3. The result will be displayed as:  
-   - **"Employable"** (if you meet the criteria).  
-   - **"Less Employable"** (if improvements are needed).
+Prerequisites
 
-## Deploying on Hugging Face Spaces
-1. Create a new Space on Hugging Face Spaces.
-2. Select Gradio as the framework.
-3. Upload all project files (app.py, requirements.txt, and model files).
-4. Start the space, and your Employability Predictor is live!       
+Python 3.x
+
+Gradio
+
+scikit-learn
+
+joblib
+
+numpy
+
+Installation
+
+pip install -r requirements.txt
+
+Usage
+
+Ensure you have the model and label encoder files in the project directory:
+
+employability_model_selected.joblib
+
+label_encoder_fixed.joblib
+
+Run the Gradio interface:
+
+python app.py
+
+Access the interface in your browser at:
+
+http://localhost:7860
+
+Code Overview
+
+Main Function
+
+The predict_employability function takes five inputs related to employability traits and predicts the status using a machine learning model.
+
+Gradio Interface
+
+A user-friendly web interface built with Gradio allows users to input ratings from 1 to 5 for each trait and get a prediction.
+
+Hugging Face : https://huggingface.co/spaces/harsha167/Employability_Prediction
+

@@ -39,3 +39,5 @@ The `predict_employability` function takes five inputs related to employability 
 ### Gradio Interface
 A user-friendly web interface built with Gradio allows users to input ratings from 1 to 5 for each trait and get a prediction.
 
+Hugging Face : https://huggingface.co/spaces/harsha167/Employability_Prediction
+

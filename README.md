@@ -32,10 +32,6 @@ Run the Gradio interface:
 
 python app.py
 
-Access the interface in your browser at:
-
-http://localhost:7860
-
 Code Overview
 
 Main Function

@@ -28,7 +28,7 @@ iface = gr.Interface(
     ],
     outputs=gr.Textbox(label="Prediction"),
     title="Employability Prediction",
-    description="Rate yourself on the given attributes (1-5) to check your employability status.  (Mithoon😉)"
+    description="Rate yourself on the given attributes (1-5) to check your employability status."
 )
 
 if __name__ == "__main__":
